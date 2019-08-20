@@ -1,0 +1,72 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.img {
+  height: 100%;
+  background-image: url("pics.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  position: absolute;
+  text-align: none;
+  width: 200px;
+  height: 100px;
+  top: 80px;
+  left: 0%;
+  color: white;
+  border: 3px solid whitesmoke;
+  border-radius: 25px;
+}
+
+.error {
+  color: red;
+}
+
+.form-text {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo,
+#welcome {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.container {
+  border: 3px solid yellow;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.info {
+  padding: 10px;
+}
+
+.info p {
+  color: yellow;
+  font-size: 24px;
+}
+.info h3 {
+  color: yellow;
+}
+
+.AI {
+  height: 100%;
+  background-image: url("AI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
